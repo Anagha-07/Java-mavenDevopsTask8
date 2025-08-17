@@ -145,7 +145,6 @@ Use this for GitHub webhook setup.
   * ✅ Install automatically
   * Version: `3.9.11`
 
-> 📸 Screenshot:
 > ![Configure Maven](./screenshots/ConfigureMaven.png)
 
 ---
@@ -196,14 +195,12 @@ git push -u origin master
 https://github.com/Anagha-07/Java-mavenDevopsTask8.git
 ```
 
-> 📸 Screenshot:
 > ![Git Repo URL](./screenshots/AddGitURL.png)
 
 #### ⏲️ Build Triggers
 
 * ✅ GitHub hook trigger for GITScm polling
 
-> 📸 Screenshot:
 > ![Git Trigger](./screenshots/GitTrigger.png)
 
 #### 🧱 Build Steps
@@ -213,7 +210,6 @@ https://github.com/Anagha-07/Java-mavenDevopsTask8.git
   * Goals: `clean package`
   * Maven Version: `Maven 3.9.11`
 
-> 📸 Screenshot:
 > ![Build Maven](./screenshots/BuildMaven.png)
 
 ---
@@ -229,10 +225,10 @@ git push
 
 2. GitHub sends webhook → Jenkins starts the build!
 
-> 📸 Screenshot:
+> 📸 Build Triggered:
 > ![Build Triggered](./screenshots/BuildTriggWebhook.png)
 
-> 📸 Build Details:
+> 📸 Jenkins Build Success:
 > ![Jenkins Build Success](./screenshots/BuildSuccess.png)
 
 ---
